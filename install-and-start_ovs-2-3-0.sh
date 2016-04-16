@@ -25,7 +25,6 @@ else
 	tar -zxvf openvswitch-2.3.0.tar.gz
 	#install openvswitch
 	cd openvswitch-2.3.0
-	make clean
 	./configure --with-linux=/lib/modules/`uname -r`/build
 	make && make install
 
