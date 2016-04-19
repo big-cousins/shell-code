@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -e
 
 user=jeremy
 path=/home/${user}
